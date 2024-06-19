@@ -1,6 +1,6 @@
 import { user } from "@/server/services/users";
 import { createEvent } from "@/server/services/userMarcarHoras";
-import { update } from "@/server/data/CRUD";
+import { update } from "../../../server/data/CRUDD";
 
 export default async (req, res) => {
 

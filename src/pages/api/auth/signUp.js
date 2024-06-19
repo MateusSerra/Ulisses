@@ -1,6 +1,6 @@
 
 
-import { createUser, findUserByEmail } from "@/server/data/CRUD";
+import { createUser, findUserByEmail } from "../../../server/data/CRUDD";
 
 export default async (req, res) => {
   if (req.method === "POST") {
