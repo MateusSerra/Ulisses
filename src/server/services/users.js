@@ -1,4 +1,4 @@
-import { findUserByEmail, findUserById } from "../data/CRUD";
+import { findUserByEmail, findUserById } from "../data/CRUDD";
 
 export async function getUserByEmail(email) {
   const result = await findUserByEmail(email);
