@@ -1,4 +1,4 @@
-import { updateDataUser, findUserById } from "@/server/data/CRUD"
+import { updateDataUser, findUserById } from "../../server/data/CRUDD"
 
 export default async(req, res) => {
     console.log(req.body)

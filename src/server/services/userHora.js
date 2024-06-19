@@ -1,4 +1,4 @@
-import { findAllUlissesHour, findAllUsersHour } from "../data/CRUD";
+import { findAllUlissesHour, findAllUsersHour } from "../data/CRUDD";
 
 export async function userEvents() {
   const horasMarcadas = await findAllUsersHour();
